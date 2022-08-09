@@ -6,16 +6,16 @@ Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("вывод чисел ");
-// if (num > 0)
+if (num > 0)
 
     for (int num2 = -num; num2 < num; num2++)
     {
     Console.Write(num2 + " ");
     }    
-
+else
 // if (num < 0)
 
-//     for (int num2 = -num; num2 > num; num2++)
-// {
-//     Console.Write(num2 + " ");
-// }
+    for (int num2 = -num; num2 > num; num2--)
+{
+    Console.Write(num2 + " ");
+}
