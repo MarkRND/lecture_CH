@@ -5,17 +5,24 @@
 Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("вывод чисел ");
+// int num2 = - num;
+// while (num2 <= num)
+// {
+//     Console.Write(num2 + " ");
+//     num2++;                                   // альтернативный способ , через while
+// }
+// Console.WriteLine();
+// Console.Write("вывод чисел ");
 if (num > 0)
 
-    for (int num2 = -num; num2 < num; num2++)
+    for (int num2 = -num; num2 <= num; num2++)
     {
     Console.Write(num2 + " ");
     }    
 else
 // if (num < 0)
 
-    for (int num2 = -num; num2 > num; num2--)
+    for (int num2 = -num; num2 >= num; num2--)
 {
     Console.Write(num2 + " ");
 }
