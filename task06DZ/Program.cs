@@ -8,10 +8,10 @@ Console.Write("Введите целое число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int chet = num % 2;
 if (chet == 0)
-    {
+{
     Console.WriteLine($"Число {num} -> ДА, являеться четным числом");
-    }
+}
 else
-    {
+{
     Console.WriteLine($"Число {num} -> НЕТ, не являеться четным числом");
-    }
+}

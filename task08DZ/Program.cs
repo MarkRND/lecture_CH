@@ -6,15 +6,15 @@
 Console.Write("Введите число от 1: ");
 int num = Convert.ToInt32(Console.ReadLine());
 if (num > 1)
-for (int num2 = 1; num2 <= num; num2++)
-        {
-            if (num2 % 2 == 0) 
-            Console.Write(num2 + " ");        
-        }
+    for (int num2 = 1; num2 <= num; num2++)
+    {
+        if (num2 % 2 == 0)
+            Console.Write(num2 + " ");
+    }
 else
-        {
-Console.WriteLine("Ошибка введите положительное число от 1");
-        }
+{
+    Console.WriteLine("Ошибка введите положительное число от 1");
+}
 
 
 
@@ -38,16 +38,16 @@ Console.WriteLine("Ошибка введите положительное чис
 // int chet = num % 2;
 // if (chet == 0)
 
-    // for (int num2 = 1; num2 <= num; num2++)
+// for (int num2 = 1; num2 <= num; num2++)
 
-    // {
-    //     // int chet = num % 2;
-    //     // if (chet == 0)
-    // //   {
-    // //     if (num2 = num % 2)
-    // //   }
-    // Console.Write(num2 + " ");
-    // }    
+// {
+//     // int chet = num % 2;
+//     // if (chet == 0)
+// //   {
+// //     if (num2 = num % 2)
+// //   }
+// Console.Write(num2 + " ");
+// }    
 
 // int N = 1;
 // while (N <= num)
@@ -65,7 +65,7 @@ Console.WriteLine("Ошибка введите положительное чис
 //         {
 //             Console.Write(num2 + " ");
 //         }    
-        
+
 //     Console.Write(num2 + " ");
 //     }
 
