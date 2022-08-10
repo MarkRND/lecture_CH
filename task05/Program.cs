@@ -23,6 +23,6 @@ else
 // if (num < 0)
 
     for (int num2 = -num; num2 >= num; num2--)
-{
-    Console.Write(num2 + " ");
-}
+    {
+        Console.Write(num2 + " ");
+    }
