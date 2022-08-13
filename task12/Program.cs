@@ -7,7 +7,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число : ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 int num2 = num % num1;
-Console.WriteLine(num2);
+// Console.WriteLine(num2);
 if (num % num1 == 0)
 {
     Console.WriteLine($"Первое число {num} кратно второму числу {num1} ");
