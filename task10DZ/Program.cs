@@ -21,5 +21,5 @@ else if (num > -999 && num < -100)
 }
 else
 {
-    Console.WriteLine($" Ошибка, число  {num} не трехзначное ");
+    Console.WriteLine($" Ошибка, число  {num} не трехзначное число ");
 }
