@@ -8,16 +8,15 @@
 
 Console.Write("Введите трехзначное число : ");
 int num = Convert.ToInt32(Console.ReadLine());
-int num2 = (num / 10) % 10;
-// int num2 = num12 % 10;
-// Console.WriteLine($"вторая цифра {num2}  числа {num} ");
+int num2 = num;
+
 if (num >= 100 && num < 1000)
 {
-    Console.WriteLine($"вторая цифра {num2}  числа {num} ");
+    Console.WriteLine($"вторая цифра {num2 = (num / 10) % 10}  числа {num} ");
 }
 else if (num > -999 && num < -100)
 {
-    Console.WriteLine($"вторая цифра {-num2}  числа {num} ");
+    Console.WriteLine($"вторая цифра {num2 = (-num / 10) % 10}  числа {num} ");
 }
 else
 {

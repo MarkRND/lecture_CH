@@ -14,13 +14,13 @@ int num2 = num;
 if (num2 < 0)
 {
     num2 = -num2;
+    Console.WriteLine($"Число {num2 = num2 % 10} являеться тетьей цифрой в числе {num}");
 }
-while (num2 > 999)
+else if (num2 > 999)
 {
     num2 = num2 / 10;
-}
-if (num2 > 99)
     Console.WriteLine($"Число {num2 = num2 % 10} являеться тетьей цифрой в числе {num}");
+}
 else
     Console.WriteLine($"У числа {num} , нет третьей цифры");
 
