@@ -17,9 +17,10 @@ int b = Convert.ToInt32(Console.ReadLine());
 // }
 // Console.WriteLine($"Число {a} возведеное в натуральную степень {b} равно {result}");
 int DegreeNumbers(int number)
-{
+{  
 int Degree = a;
-for (int i = 1; i < b; i++)
+int numDegree = b;
+for (int i = 1; i < numDegree; i++)
      {
     Degree *= a;
      }
