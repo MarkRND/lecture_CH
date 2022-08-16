@@ -31,8 +31,7 @@
 
 
 
-
-Console.Write(" Введите число: ");
+Сonsole.Write(" Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int LengthNumbers(int num)
 {

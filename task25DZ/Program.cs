@@ -10,21 +10,25 @@ Console.Write(" Введите число A: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write(" Введите число B: ");
 int b = Convert.ToInt32(Console.ReadLine());
-// int result = a;
-// for (int i = 1; i < b; i++)
-// {
-//     result *= a;
-// }
-// Console.WriteLine($"Число {a} возведеное в натуральную степень {b} равно {result}");
-int DegreeNumbers(int number)
-{  
 int Degree = a;
-int numDegree = b;
-for (int i = 1; i < numDegree; i++)
-     {
-    Degree *= a;
-     }
-    return Degree;
+int numD = b;
+if (b > 0)
+{
+    for (int i = 1; i < numD; i++)
+    {
+        Degree *= a;
+
+    }
+    Console.WriteLine($"Число {a} возведеное в натуральную степень {b} равно {Degree}");
 }
-int result = DegreeNumbers(a);
-Console.WriteLine($"Число {a} возведеное в натуральную степень {b} равно {result}");
+
+else if (b == 0)
+{
+    Console.WriteLine($"Число {a} возведеное в натуральную степень {b} равно 1");
+}
+
+else
+{
+    Console.WriteLine($"ОШИБКА число {b} не являеться натуральным числом");
+}
+
