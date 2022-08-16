@@ -11,10 +11,9 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.Write(" Введите число B: ");
 int b = Convert.ToInt32(Console.ReadLine());
 int Degree = a;
-int numD = b;
 if (b > 0)
 {
-    for (int i = 1; i < numD; i++)
+    for (int i = 1; i < b; i++)
     {
         Degree *= a;
 
