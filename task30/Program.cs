@@ -12,7 +12,6 @@ int[] NewArray()
     }
     return array;
 }
-
 int[] array = NewArray();
 void PrintArray()
 {
